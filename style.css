@@ -761,12 +761,19 @@ footer span a:hover {
 
 .techstack {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   width: 90%;
   margin: auto;
   margin-top: 30px;
+  gap: 2px;
 }
-.techstack img {
+/* .techstack img {
   height: 80%;
   width: 100%;
+  border: 1px solid red;
+} */
+.react {
+  height: 50px;
+  width: 64px;
+  /* border: 3px solid red; */
 }
